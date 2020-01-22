@@ -85,7 +85,7 @@
 }
 
 
-.chat__write:hover {
+.chat__write:focus {
   outline: none;
   width: 80%;
   border-radius: 40px;
@@ -100,7 +100,7 @@
   transition: opacity 0.3s ease-in-out;
 }
 
-.chat__write:hover ~ .chat__icon {
+.chat__write:focus ~ .chat__icon {
   opacity: 0;
 }
 
