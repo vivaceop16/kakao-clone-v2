@@ -41,3 +41,24 @@
     align-items : center;
     border-radius: 50%;
 }
+
+@keyframes navAni {
+    0% {
+        opacity: 0.5;
+        transform: scale(1.0);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.4);
+    }
+
+    100% {
+        opacity: 0.5;
+        transform: scale(1.0);
+    }
+}
+
+.nav__badge { 
+    animation: navAni 0.7s ease-in-out infinite;
+}

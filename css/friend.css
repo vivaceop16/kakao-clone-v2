@@ -21,6 +21,11 @@
   width: 60px;
 }
 
+.friend--lg {
+  margin-bottom: 30px;
+}
+
+
 .friend .friend__column {
   display: flex;
   align-items: center;
@@ -60,18 +65,7 @@ text-align: right;
   display: flex;
 }
 
-.new__badge {
-  margin-left: 10px;
-  font-size: 10px;
-  color : #ffffff;
-  background-color: #dc5d46;
-  width : 15px;
-  height: 15px;
-  display: flex;
-  justify-content: center;
-  align-items : center;
-  border-radius: 50%;
-}
+
 
 .friend .friend__now-listening {
   border: 2px solid #52e084;
